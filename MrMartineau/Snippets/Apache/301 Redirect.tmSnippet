@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Redirect 301 /${1:oldpage.html} ${1:http://www.yoursite.com/newpage.html}
+301$0</string>
+	<key>name</key>
+	<string>301 Redirect</string>
+	<key>scope</key>
+	<string>source.apache-config</string>
+	<key>tabTrigger</key>
+	<string>301</string>
+	<key>uuid</key>
+	<string>432A782E-39C1-4282-9F9C-192C80CDD80B</string>
+</dict>
+</plist>

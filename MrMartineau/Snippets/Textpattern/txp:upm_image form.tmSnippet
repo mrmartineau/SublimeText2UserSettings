@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;img src="&lt;txp:site_url /&gt;image.php?width=${3:125}&amp;amp;height=${2:125}&amp;amp;cropratio=1:1&amp;amp;quality=${1:65}&amp;amp;image=&lt;txp:upm_img_full_url /&gt;" alt="&lt;txp:title /&gt;"/&gt;</string>
+	<key>name</key>
+	<string>txp:upm_image form</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>DB80CC5A-ECA1-4B48-9726-9677E5ECAA99</string>
+</dict>
+</plist>

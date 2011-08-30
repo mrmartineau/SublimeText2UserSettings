@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+$.fn.replaceUrl = function() {
+		var regexp = /((ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&amp;%@!\-\/]))?)/gi;
+		this.each(function() {
+			$(this).html(
+				$(this).html().replace(regexp,'&lt;a href="$1"&gt;$1&lt;/a&gt;‘)
+			);
+		});
+		return $(this);
+	}
+
+	//usage
+
+	$('p').replaceUrl();
+        ]]></content>
+    <description>Replace any URL on your page with a clickable link</description>
+</snippet>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!-- Asynchronous Google Analytics: mathiasbynens.be/notes/async-analytics-snippet --&gt;
+&lt;script&gt;
+	var _gaq = [['_setAccount', '${1:UA-XXXXX-X}'], ['_trackPageview']];
+	(function(d, t) {
+		var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+		g.async = true;
+		g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g, s);
+	})(document, 'script');
+&lt;/script&gt;</string>
+	<key>name</key>
+	<string>Async Google Analytics</string>
+	<key>scope</key>
+	<string>source.js.html.php</string>
+	<key>tabTrigger</key>
+	<string>analytics</string>
+	<key>uuid</key>
+	<string>91998CBD-9CE2-48E8-A504-7C7792E2FE29</string>
+</dict>
+</plist>

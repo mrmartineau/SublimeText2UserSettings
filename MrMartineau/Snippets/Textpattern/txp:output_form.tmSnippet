@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;txp:output_form form="${1:url}" /&gt;</string>
+	<key>name</key>
+	<string>txp:output_form</string>
+	<key>scope</key>
+	<string>text.source.html.php</string>
+	<key>uuid</key>
+	<string>8AC7BB68-EA02-4739-96EE-2E2EE5594708</string>
+</dict>
+</plist>

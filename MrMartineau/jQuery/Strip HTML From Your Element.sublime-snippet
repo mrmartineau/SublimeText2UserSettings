@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+(function($) {
+	$.fn.stripHtml = function() {
+		var regexp = /&lt;("[^"]*"|'[^']*'|[^'"&gt;])*&gt;/gi;
+		this.each(function() {
+			$(this).html(
+				$(this).html().replace(regexp,”")
+			);
+		});
+		return $(this);
+	}
+})(jQuery);
+
+	//usage:
+	$('p').stripHtml();
+        ]]></content>
+    <description>Strip HTML From Your Element</description>
+</snippet>

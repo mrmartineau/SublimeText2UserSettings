@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+//For when an element loses it's focus use .blur()
+$('#target').blur(function() {
+	alert('Handler for .blur() called.');
+});
+//For when an element gains focus use .focus()
+$('#target').focus(function() {
+	alert('Handler for .focus() called.');
+});
+        ]]></content>
+    <description>Focus &amp; Blur functions</description>
+</snippet>

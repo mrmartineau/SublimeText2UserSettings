@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// jQuery Twitter
+(function($){$.fn.getTwitter=function(options){var o=$.extend({},$.fn.getTwitter.defaults,options);$(this).hide();if(o.showHeading){$(this).append('&lt;h4&gt;'+o.headingText+'&lt;/h4&gt;');}$(this).append('&lt;ul id="twitter_update_list"&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;');$("ul#twitter_update_list").hide();var pl=$('&lt;p id="'+o.preloaderId+'"&gt;'+o.loaderText+'&lt;/p&gt;');$(this).append(pl);if(o.showProfileLink){$(this).append('&lt;a id="profileLink" href="http://twitter.com/'+o.userName+'"&gt;http://twitter.com/'+o.userName+'&lt;/a&gt;');}$(this).show();$.getScript("http://twitter.com/javascripts/blogger.js");$.getScript("http://twitter.com/statuses/user_timeline/"+o.userName+".json?callback=twitterCallback2&amp;count="+o.numTweets,function(){$(pl).remove();if(o.slideIn){$("ul#twitter_update_list").slideDown(1000);}else{$("ul#twitter_update_list").show();}$("ul#twitter_update_list li:first").addClass("firstTweet");$("ul#twitter_update_list li:last").addClass("lastTweet");});};$.fn.getTwitter.defaults={userName:null,numTweets:5,preloaderId:"preloader",loaderText:"Loading tweets...",slideIn:false,showHeading:true,headingText:"Latest Tweets",showProfileLink:true};})(jQuery);</string>
+	<key>name</key>
+	<string>jQuery Twitter</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>7CE1FC72-75A5-4E2B-BBCC-0ED970B5539E</string>
+</dict>
+</plist>

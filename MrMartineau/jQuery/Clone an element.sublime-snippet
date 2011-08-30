@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+var cloned = $('#somediv').clone();
+        ]]></content>
+    <description>Clone an element</description>
+</snippet>

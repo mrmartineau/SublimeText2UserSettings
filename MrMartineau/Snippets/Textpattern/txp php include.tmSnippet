@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;txp:php&gt;echo parse(file_get_contents(txpath.'/forms/html_start.php'));&lt;/txp:php&gt;</string>
+	<key>name</key>
+	<string>txp php include</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>A77A552D-3F0F-4522-8200-337955A56A7D</string>
+</dict>
+</plist>

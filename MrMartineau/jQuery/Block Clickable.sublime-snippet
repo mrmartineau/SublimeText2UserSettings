@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+//Block Clickable    
+$("${1:#sites li}").click(function(){
+        window.location=$(this).find("a").attr("href");return false;
+});
+$0
+        ]]></content>
+    <tabTrigger>blockclickable</tabTrigger>
+    <description>Block Clickable</description>
+</snippet>

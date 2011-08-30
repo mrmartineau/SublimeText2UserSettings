@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+$(document).bind('contextmenu',function(e){ return false; });
+        ]]></content>
+    <description>Disable right-click contextual menu</description>
+</snippet>

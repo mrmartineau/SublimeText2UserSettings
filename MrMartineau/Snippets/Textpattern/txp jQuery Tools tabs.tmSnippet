@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div id="panes"&gt;
+	&lt;!-- This uses specific articles ID's --&gt;
+	&lt;txp:article_custom limit="5" section="${2:section_name}" id="${1:1,2,3,4,5}" sort="Posted asc"&gt;
+		&lt;div class="pane pane_&lt;txp:article_id /&gt;"&gt;
+			&lt;txp:article_image /&gt;
+			&lt;div&gt;
+				&lt;h3&gt;&lt;txp:section name="$2"&gt;&lt;txp:excerpt /&gt; &lt;span class="arrow"&gt;&amp;raquo;&lt;/span&gt;&lt;/txp:section&gt;&lt;/h3&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- / pane  --&gt;
+	&lt;/txp:article_custom&gt;
+&lt;/div&gt;&lt;!-- / #panes	 --&gt;
+&lt;txp:article_custom limit="5" section="$2" id="$1" sort="Posted asc"&gt; &lt;!-- This uses specific articles ID's --&gt;
+	&lt;txp:if_first_article&gt;&lt;ul id="tabs" class="group"&gt;&lt;/txp:if_first_article&gt;
+		&lt;li class="tab_&lt;txp:article_id /&gt;"&gt;&lt;a href="#"&gt;&lt;txp:title /&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;txp:if_last_article&gt;&lt;/ul&gt;&lt;!-- /tabs --&gt;&lt;/txp:if_last_article&gt;
+&lt;/txp:article_custom&gt;
+$0</string>
+	<key>name</key>
+	<string>txp jQuery Tools tabs</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>766EA6D2-DBBF-4B0D-B8FA-2BAFC2066B83</string>
+</dict>
+</plist>

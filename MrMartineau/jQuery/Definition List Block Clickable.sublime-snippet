@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+$(”${1:#defList} dd”).click(function(){
+            window.location=$(this).prev().find(“a”).prop(“href”); return false;
+});
+
+/* Add .hover class to the next &lt;dd&gt; when dt is hovered over */
+$(’$1 dt’).hover(function() {
+    $(this).next().addClass(‘hover’).css({‘cursor’ : ‘pointer’});   
+}, function() {
+    $(this).next().removeClass(‘hover’);
+});
+/* Add .hover class to previous &lt;dt&gt; when dd is hovered over */
+$(’$1 dd’).hover(function() {
+    $(this).prev().addClass(‘hover’).css({‘cursor’ : ‘pointer’});
+}, function() {
+    $(this).prev().removeClass(‘hover’);
+});
+$0
+        ]]></content>
+    <description>Definition List Block Clickable</description>
+</snippet>

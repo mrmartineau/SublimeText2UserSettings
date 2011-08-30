@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+$("p.value:contains('thetextvalue')").hide();
+        ]]></content>
+    <description>Hide an element that contains text of a certain value</description>
+</snippet>

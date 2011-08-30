@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+jQuery.fn.autoscroll = function(selector) {
+  $('html,body').animate(
+    {scrollTop: $(selector).offset().top},
+    500
+  );
+}
+
+//Then to scroll to the class/area you wish to get to like this:
+$('${1:.scroll_link}').autoscroll();
+        ]]></content>
+    <tabTrigger>autoscroll</tabTrigger>
+    <description>Autoscroll</description>
+</snippet>

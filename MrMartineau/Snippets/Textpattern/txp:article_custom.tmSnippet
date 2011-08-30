@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;txp:article_custom limit="5" section="" wraptag="" break="" class="" sort="Posted asc"&gt;
+	&lt;article&gt;
+		&lt;txp:upm_article_image form="" /&gt;
+		&lt;h2&gt;&lt;txp:title /&gt;&lt;/h2&gt;
+		&lt;txp:body /&gt;
+	&lt;/article&gt;
+&lt;/txp:article_custom&gt;</string>
+	<key>name</key>
+	<string>txp:article_custom</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>BF3E33AC-0B61-4158-A488-A973EFAFED47</string>
+</dict>
+</plist>

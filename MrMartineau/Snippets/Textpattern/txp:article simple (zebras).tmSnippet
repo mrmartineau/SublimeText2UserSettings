@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;txp:article wraptag="" break="" class="" sort="Posted asc"&gt;&lt;txp:if_variable name="zebra" value="odd"&gt;&lt;txp:variable name="zebra" value="even" /&gt;&lt;txp:else /&gt;&lt;txp:variable name="zebra" value="odd" /&gt;&lt;/txp:if_variable&gt;
+	&lt;article class="&lt;txp:variable name="zebra" /&gt;"&gt;
+		&lt;txp:upm_article_image form="" /&gt;
+		&lt;h2&gt;&lt;txp:title /&gt;&lt;/h2&gt;
+		&lt;txp:body /&gt;
+	&lt;/article&gt;
+&lt;/txp:article&gt;</string>
+	<key>name</key>
+	<string>txp:article simple (zebras)</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>EF34046D-E04F-4ECF-BFE2-CDB48D219318</string>
+</dict>
+</plist>

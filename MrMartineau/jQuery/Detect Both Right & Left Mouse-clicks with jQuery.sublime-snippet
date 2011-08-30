@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+$("#someelement").live('click', function(e) {
+	if( (!$.browser.msie &amp;&amp; e.button == 0) || ($.browser.msie &amp;&amp; e.button == 1) ) {
+		alert("Left Mouse Button Clicked");
+	}  
+	else if(e.button == 2)
+		alert("Right Mouse Button Clicked");
+});
+        ]]></content>
+    <description>Detect Both Right &amp; Left Mouse-clicks with jQuery</description>
+</snippet>

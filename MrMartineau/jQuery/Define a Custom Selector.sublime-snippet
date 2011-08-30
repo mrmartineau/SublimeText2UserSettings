@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+$.expr[':'].mycustomselector = function(element, index, meta, stack){
+	// element- is a DOM element
+	// index - the current loop index in stack
+	// meta - meta data about your selector	
+	// stack - stack of all elements to loop
+  
+	// Return true to include current element
+	// Return false to explude current element
+};
+  
+// Custom Selector usage:  
+$('.someClasses:test').doSomething();
+        ]]></content>
+    <description>Define a Custom Selector</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+//Look for the media-type you wish to switch then set the href to your new style sheet  
+$('link[media='screen']').attr('href', 'Alternative.css');
+        ]]></content>
+    <description>Switch Styles</description>
+</snippet>

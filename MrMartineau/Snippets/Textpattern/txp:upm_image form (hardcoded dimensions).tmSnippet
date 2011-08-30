@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+	$path = parse('&lt;txp:site_url /&gt;image.php?width=319&amp;quality=85&amp;image=&lt;txp:upm_img_full_url /&gt;');
+	list($width, $height, $type, $attr) = getimagesize($path);
+	variable(array(
+		'name' =&gt; 'width',
+		'value' =&gt; $width
+	));
+	variable(array(
+		'name' =&gt; 'height',
+		'value' =&gt; $height
+	));
+?&gt;
+&lt;img src="&lt;txp:site_url /&gt;image.php?width=319&amp;amp;quality=75&amp;amp;image=&lt;txp:upm_img_full_url /&gt;" alt="&lt;txp:title /&gt;" class="list_img" height="&lt;?php echo $height ?&gt;" width="&lt;?php echo $width ?&gt;"/&gt;</string>
+	<key>name</key>
+	<string>txp:upm_image form (hardcoded dimensions)</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>7C06657E-2426-458B-8732-8ED9F1A2E8BC</string>
+</dict>
+</plist>

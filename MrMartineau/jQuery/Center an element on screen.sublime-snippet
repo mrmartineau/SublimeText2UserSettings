@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+jQuery.fn.center = function () {
+	this.css('position','absolute');
+	this.css('top', ( $(window).height() - this.height() ) / +$(window).scrollTop() + 'px');
+	this.css('left', ( $(window).width() - this.width() ) / 2+$(window).scrollLeft() + 'px');return this;}
+
+$(${1:#center_this}).center();
+        ]]></content>
+    <description>Center an element on screen</description>
+</snippet>

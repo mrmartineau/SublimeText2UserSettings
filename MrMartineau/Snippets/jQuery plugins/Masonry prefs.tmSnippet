@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>	var $wall = $('${1:section}');
+//Masonry
+	$wall.masonry({
+		singleMode: true
+		// ,animate: true
+		,resizeable: true
+		,itemSelector : 'article'
+		// ,itemSelector: 'article:visible'
+	});</string>
+	<key>name</key>
+	<string>Masonry prefs</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>08E46E1E-8497-46AC-BB58-EC037BAB06BC</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+[
+	{ "keys": ["super+."], "command": "close_tag" },
+
+	{ "keys": ["super+alt+shift+a"], "command": "alignment" },
+	{ "keys": ["super+alt+ctrl+a"], "command": "alignment" }
+]

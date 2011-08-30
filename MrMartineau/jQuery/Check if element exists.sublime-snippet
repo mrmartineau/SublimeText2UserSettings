@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+if ($('#someDiv').length) {//hooray!!! it exists...}
+        ]]></content>
+    <description>Check if element exists</description>
+</snippet>

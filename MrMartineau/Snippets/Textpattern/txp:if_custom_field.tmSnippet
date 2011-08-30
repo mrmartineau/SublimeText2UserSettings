@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;txp:if_custom_field name="${1:url}"&gt;&lt;txp:if_custom_field name="${1:url}"&gt;&lt;/txp:if_custom_field&gt;</string>
+	<key>name</key>
+	<string>txp:if_custom_field</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>AEA80CEA-9935-4794-847B-5A43C9108091</string>
+</dict>
+</plist>

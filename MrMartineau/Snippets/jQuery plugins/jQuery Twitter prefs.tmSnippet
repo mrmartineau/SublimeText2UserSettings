@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// TWITTER
+	$("#twitter").getTwitter({
+		userName: "jquerystyle",
+		numTweets: 4,
+		loaderText: "Loading tweets...",
+		slideIn: false,
+		showHeading: true,
+		headingText: "Twitter Feed",
+		showProfileLink: false
+	});</string>
+	<key>name</key>
+	<string>jQuery Twitter prefs</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>2276B480-0AB5-4E7B-92D4-E3F6901D3A9E</string>
+</dict>
+</plist>

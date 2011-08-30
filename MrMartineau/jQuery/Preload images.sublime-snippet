@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+jQuery.preloadImages = function() { for(var i = 0; i').attr('src', arguments[i]); } };
+// Usage $.preloadImages('image1.gif', '/path/to/image2.png', 'some/image3.jpg');
+        ]]></content>
+    <description>Preload images</description>
+</snippet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;txp:section_list wraptag="ul" break="" class="nav" sections="" include_default="1" default_title="Home"&gt;
+	&lt;li class="&lt;txp:section /&gt;&lt;txp:if_section name='&lt;txp:section /&gt;'&gt; active&lt;/txp:if_section&gt;"&gt;
+		&lt;txp:section title="1" link="1" /&gt;
+	&lt;/li&gt;
+&lt;/txp:section_list&gt;</string>
+	<key>name</key>
+	<string>txp:section_list</string>
+	<key>scope</key>
+	<string>text.source.html.php.txp</string>
+	<key>uuid</key>
+	<string>0193BDA9-9E71-42B0-942C-1DF99A33E72D</string>
+</dict>
+</plist>

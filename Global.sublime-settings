@@ -1,0 +1,10 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+		"SFTP"
+	],
+	"remember_open_files": true,
+	"theme": "Soda Light.sublime-theme",
+	"use_simple_full_screen": true
+}
