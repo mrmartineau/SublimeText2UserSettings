@@ -8,7 +8,7 @@
 	"draw_minimap_border": true,
 	"highlight_line": true,
 	"match_brackets_angle": true,
-	"draw_white_space": "selection",
+	"draw_white_space": "all",
 	"indent_guide_options": ["draw_normal", "draw_active", "draw_stack", "normal_stippled", "stack_stippled", "active_stippled"],
 	"trim_trailing_white_space_on_save": true,
 	"save_on_focus_lost": true
