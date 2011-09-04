@@ -2,7 +2,14 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"SFTP"
+		"SFTP",
+		"CloseTagOnSlash",
+		"SublimeTagmatcher",
+		"UberSelection",
+		"Sniptastic",
+		"Theme - Default",
+		"JSLint",
+		"AdzenithSublimePlugins"
 	],
 	"remember_open_files": true,
 	"theme": "Soda Light.sublime-theme",
