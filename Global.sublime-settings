@@ -11,7 +11,7 @@
 		"JSLint",
 		"AdzenithSublimePlugins"
 	],
-	"remember_open_files": true,
+	"remember_open_files": false,
 	"theme": "Soda Light.sublime-theme",
 	"use_simple_full_screen": true
 }
