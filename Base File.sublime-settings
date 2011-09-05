@@ -1,6 +1,6 @@
 {
 	"auto_indent": true,
-	"color_scheme": "Packages/Color Scheme - Default/Made of Code Zander Bright.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Made of Code.tmTheme",
 	"detect_indentation": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
@@ -17,7 +17,7 @@
 	],
 	"match_brackets_angle": true,
 	"save_on_focus_lost": true,
-	"spell_check": true,
+	"spell_check": false,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
 }
