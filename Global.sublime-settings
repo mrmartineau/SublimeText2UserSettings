@@ -1,12 +1,11 @@
 {
+	"close_windows_when_empty": true,
 	"ignored_packages":
 	[
 		"Vintage",
 		"SFTP",
 		"CloseTagOnSlash",
-		"SublimeTagmatcher",
 		"UberSelection",
-		"Sniptastic",
 		"Theme - Default",
 		"JSLint",
 		"AdzenithSublimePlugins"
