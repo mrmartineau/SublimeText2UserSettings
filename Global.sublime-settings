@@ -6,7 +6,8 @@
 		"SFTP",
 		"Theme - Default",
 		"JSLint",
-		"AdzenithSublimePlugins"
+		"AdzenithSublimePlugins",
+		"SublimeBrackets"
 	],
 	"remember_open_files": false,
 	"theme": "Soda Light.sublime-theme",
