@@ -7,7 +7,8 @@
 		"Theme - Default",
 		"JSLint",
 		"AdzenithSublimePlugins",
-		"SublimeBrackets"
+		"SublimeBrackets",
+		"SublimeLinter"
 	],
 	"remember_open_files": false,
 	"theme": "Soda Light.sublime-theme",
