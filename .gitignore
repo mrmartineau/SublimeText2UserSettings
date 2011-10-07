@@ -2,3 +2,9 @@
 .DS_Store
 
 Package Control.sublime-settings
+
+URIencode.pyc
+
+.gitignore
+
+Package Control.sublime-settings

@@ -1,15 +1,20 @@
 {
 	"close_windows_when_empty": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SublimeCodeIntel",
 		"Vintage",
-		"SFTP",
 		"Theme - Default",
+		"SFTP",
 		"JSLint",
-		"AdzenithSublimePlugins",
+		"SublimeTagmatcher",
 		"SublimeBrackets",
-		"SublimeLinter"
+		"AdzenithSublimePlugins",
+		"SublimeLinter",
+		"SublimeJavaScript"
 	],
+	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"theme": "Soda Light.sublime-theme",
 	"use_simple_full_screen": true

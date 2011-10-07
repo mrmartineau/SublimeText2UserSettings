@@ -12,4 +12,5 @@ $('${1:.scroll_link}').autoscroll();
         ]]></content>
     <tabTrigger>autoscroll</tabTrigger>
     <description>Autoscroll</description>
+	<scope>source.js</scope>
 </snippet>
