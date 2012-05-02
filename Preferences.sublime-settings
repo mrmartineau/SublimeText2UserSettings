@@ -1,0 +1,67 @@
+{
+	"auto_complete": true,
+	"auto_id_class": true,
+	"auto_indent": true,
+	"auto_match_enabled": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.psd",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"caret_style": "phase",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Scheme - Default/Pterosaur.tmTheme",
+	"detect_indentation": true,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	"fold_buttons": true,
+	"font_face": "Menlo",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 14.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Color Highlighter",
+		"Live CSS",
+		"SVN"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"indent_subsequent_lines": false,
+	"indent_to_bracket": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"match_brackets_angle": true,
+	"move_to_limit_on_up_down": true,
+	"remember_open_files": true,
+	"save_on_focus_lost": true,
+	"shift_tab_unindent": false,
+	"spell_check": false,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

@@ -1,7 +1,25 @@
 {
-	"auto_upgrade_last_run": 1317937854,
-	"repository_channels":
+	"auto_upgrade_last_run": 1335935792,
+	"installed_packages":
 	[
-		"http://sublime.wbond.net/repositories.json"
+		"AdvancedNewFile",
+		"Alignment",
+		"AsAbove",
+		"Auto Semi-Colon",
+		"Gist",
+		"GotoRecent",
+		"HTML5",
+		"Inc-Dec-Value",
+		"jQuery",
+		"Less",
+		"LESS",
+		"Nettuts+ Fetch",
+		"Open Recent Files",
+		"Package Control",
+		"Placeholders",
+		"Prefixr",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"ZenCoding"
 	]
 }

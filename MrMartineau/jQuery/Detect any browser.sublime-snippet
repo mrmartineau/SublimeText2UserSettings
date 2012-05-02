@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Detect Safari (if( $.browser.safari)),  
-Detect IE6 and over (if ($.browser.msie &amp;&amp; $.browser.version &gt;= 6 )),  
-Detect IE6 and below (if ($.browser.msie &amp;&amp; $.browser.version &lt;= 6 )),  
-Detect FireFox 2 and above (if ($.browser.mozilla &amp;&amp; $.browser.version &gt;= '1.8' ))
-        ]]></content>
-    <description>Detect any browser</description>
-</snippet>

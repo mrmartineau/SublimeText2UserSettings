@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-$('#theImage').attr('src', 'image.jpg').load(function() {
-    alert('This Image Has Been Loaded');
-});
-        ]]></content>
-    <description>Check if an image has been fully loaded</description>
-</snippet>
