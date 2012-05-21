@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1335935792,
+	"auto_upgrade_last_run": 1337611742,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -13,6 +13,7 @@
 		"jQuery",
 		"Less",
 		"LESS",
+		"MoveText",
 		"Nettuts+ Fetch",
 		"Open Recent Files",
 		"Package Control",
