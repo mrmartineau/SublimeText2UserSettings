@@ -1,5 +1,6 @@
 {
 	"auto_complete": true,
+	"auto_complete_delay": 900,
 	"auto_id_class": true,
 	"auto_indent": true,
 	"auto_match_enabled": true,

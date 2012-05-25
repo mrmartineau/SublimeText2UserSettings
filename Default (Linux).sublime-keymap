@@ -8,17 +8,17 @@
 	{ "keys": ["super+."], "command": "spaces-to-tabs" },
 
 	// A macro command created by Zander Martineau
-	{ "keys": ["super+shift+alt+s"], "command": "run_macro_file", "args": {"file": "Packages/User/MrMartineau/Spaces to Tabs.sublime-macro"} },
+	{ "keys": ["super+shift+alt+s"], "command": "run_macro_file", "args": {"file": "Packages/User/Spaces to Tabs.sublime-macro"} },
 
 	{ "keys": ["shift+escape"], "command": "alternative_autocomplete", "context":
-	  [
-		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-		{ "key": "overlay_visible", "operator": "equal", "operand": false }
-	  ]
+		[
+			{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+			{ "key": "overlay_visible", "operator": "equal", "operand": false }
+		]
 	},
 
 	// Large comment block shortcut
-	{ "keys": ["ctrl+shift+b"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//} ====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} === ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//} ====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
+	{ "keys": ["ctrl+shift+b"], "command": "insert_snippet", "args": {"contents": "${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}=== ${1:Banner} ===${TM_COMMENT_END/^s*(.+)/ $1/}\n${TM_COMMENT_START/s*$//}====${1/./=/g}====${TM_COMMENT_END/^s*(.+)/ $1/}"}},
 
 	// Can I Use
 	{ "keys": ["ctrl+alt+f"], "command": "use_it" },

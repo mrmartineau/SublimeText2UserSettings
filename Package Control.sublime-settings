@@ -1,26 +1,30 @@
 {
-	"auto_upgrade_last_run": 1337611742,
+	"auto_upgrade_last_run": 1337869674,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
 		"Alignment",
 		"AsAbove",
 		"Auto Semi-Colon",
+		"Backbone.js",
+		"Case Conversion",
 		"Gist",
 		"GotoRecent",
 		"HTML5",
 		"Inc-Dec-Value",
 		"jQuery",
-		"Less",
 		"LESS",
+		"Less",
 		"MoveText",
 		"Nettuts+ Fetch",
 		"Open Recent Files",
 		"Package Control",
 		"Placeholders",
 		"Prefixr",
+		"ScopeHunter",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimePeek",
 		"ZenCoding"
 	]
 }
