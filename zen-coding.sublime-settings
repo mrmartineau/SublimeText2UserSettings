@@ -3,15 +3,15 @@
 	// otherwise modifications will not survive updates.
 
 	// Will sublime.log_commands(True) and output Zen Specific debug info
-	"debug" : false,
+	"debug" : true,
 
 	// Disable specific contextual completions that aren't part of `zen proper`
 	"completions_blacklist": [
-		 "css_selectors",
-		 "css_property_values",
-		 "html_elements_attributes",
-		 "html_attributes_values",
-		 "css_properties"
+		"css_selectors",
+		"css_property_values",
+		"html_elements_attributes",
+		"html_attributes_values",
+		"css_properties"
 	],
 
 	// For those who just want `zen as you type`, disable completions entirely

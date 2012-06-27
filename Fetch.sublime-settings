@@ -3,7 +3,9 @@
 	{
 		"Backbone.js": "http://documentcloud.github.com/backbone/backbone-min.js",
 		"Easie": "https://raw.github.com/jaukia/easie/master/js/jquery.easie.js",
+		"Kickoff .htaccess": "https://raw.github.com/tmwagency/kickoff/master/.htaccess",
 		"Kickoff index.html": "https://raw.github.com/tmwagency/kickoff/master/index.html",
+		"Kickoff script.js": "https://raw.github.com/tmwagency/kickoff/master/js/script.js",
 		"Modernizr Dev": "https://raw.github.com/Modernizr/Modernizr/69499079e9e33673b0d1f094c3c33996addffe66/modernizr.js",
 		"Respond.js": "https://raw.github.com/scottjehl/Respond/master/respond.min.js",
 		"Sisyphus.js": "https://raw.github.com/simsalabim/sisyphus/master/sisyphus.min.js",

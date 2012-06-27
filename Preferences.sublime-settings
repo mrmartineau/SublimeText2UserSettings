@@ -1,5 +1,6 @@
 {
-	"auto_complete": true,
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": false,
 	"auto_complete_delay": 900,
 	"auto_id_class": true,
 	"auto_indent": true,
@@ -37,7 +38,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14.0,
+	"font_size": 12.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -58,10 +59,13 @@
 	"line_padding_top": 2,
 	"match_brackets_angle": true,
 	"move_to_limit_on_up_down": true,
+	"overlay_scroll_bars": "enabled",
 	"remember_open_files": true,
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": false,
 	"spell_check": false,
+	"tab_completion": true,
+	"theme": "Soda Light Refined.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true

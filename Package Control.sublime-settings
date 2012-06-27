@@ -1,11 +1,12 @@
 {
-	"auto_upgrade_last_run": 1337869674,
+	"auto_upgrade_last_run": 1340831822,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
 		"Alignment",
 		"AsAbove",
 		"Auto Semi-Colon",
+		"AutoFileName",
 		"Backbone.js",
 		"Case Conversion",
 		"Gist",
@@ -25,6 +26,8 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimePeek",
+		"Theme - Soda Refined",
+		"View In Browser",
 		"ZenCoding"
 	]
 }
