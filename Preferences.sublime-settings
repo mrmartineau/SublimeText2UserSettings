@@ -47,7 +47,10 @@
 		"Vintage",
 		"Color Highlighter",
 		"Live CSS",
-		"SVN"
+		"SVN",
+		"Boost-Snippets",
+		"LESS-build",
+		"BracketHighlighter"
 	],
 	"indent_guide_options":
 	[
@@ -65,7 +68,7 @@
 	"shift_tab_unindent": false,
 	"spell_check": false,
 	"tab_completion": true,
-	"theme": "Soda Light Refined.sublime-theme",
+	"theme": "Soda Light.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true

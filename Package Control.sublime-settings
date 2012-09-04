@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1340831822,
+	"auto_upgrade_last_run": 1346794568,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -8,15 +8,21 @@
 		"Auto Semi-Colon",
 		"AutoFileName",
 		"Backbone.js",
+		"BracketHighlighter",
 		"Case Conversion",
+		"CSScomb",
+		"DetectSyntax",
 		"Gist",
 		"GotoRecent",
 		"HTML5",
 		"Inc-Dec-Value",
 		"jQuery",
+		"JsFormat",
 		"LESS",
 		"Less",
+		"LESS-build",
 		"MarkAndMove",
+		"MarkdownBuild",
 		"MoveText",
 		"Nettuts+ Fetch",
 		"Open Recent Files",
@@ -25,9 +31,10 @@
 		"Prefixr",
 		"ScopeHunter",
 		"SideBarEnhancements",
+		"sublime-closure-linter",
 		"SublimeLinter",
 		"SublimePeek",
-		"Theme - Soda Refined",
+		"Theme - Soda",
 		"View In Browser",
 		"ZenCoding"
 	]
