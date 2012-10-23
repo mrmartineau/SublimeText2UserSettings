@@ -33,24 +33,25 @@
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
 	"fold_buttons": true,
-	"font_face": "Menlo",
+	"font_face": "SourceCodePro-Regular",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12.0,
+	"font_size": 13.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Color Highlighter",
-		"Live CSS",
 		"SVN",
+		"BracketHighlighter",
+		"Color Highlighter",
 		"Boost-Snippets",
-		"LESS-build",
-		"BracketHighlighter"
+		"Vintage",
+		"Live CSS",
+		"Emmet",
+		"ZenCoding"
 	],
 	"indent_guide_options":
 	[
@@ -63,12 +64,17 @@
 	"match_brackets_angle": true,
 	"move_to_limit_on_up_down": true,
 	"overlay_scroll_bars": "enabled",
+	"phoenix_color_blue": true,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_auto_width": true,
 	"remember_open_files": true,
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": false,
 	"spell_check": false,
 	"tab_completion": true,
-	"theme": "Soda Light.sublime-theme",
+	"theme": "Phoenix Light.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true

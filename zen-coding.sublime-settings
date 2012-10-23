@@ -15,7 +15,7 @@
 	],
 
 	// For those who just want `zen as you type`, disable completions entirely
-	"disable_completions": false,
+	"disable_completions": true,
 
 	// These are `file type` settings and must be copied to
 	//  `User/Base File.sublime-settings`
