@@ -9,6 +9,7 @@
 
 	// A macro command created by Zander Martineau
 	{ "keys": ["super+shift+alt+s"], "command": "run_macro_file", "args": {"file": "Packages/User/Spaces to Tabs.sublime-macro"} },
+	{ "keys": ["super+shift+alt+a"], "command": "run_macro_file", "args": {"file": "Packages/User/Convert 2 spaces to 4 tabs.sublime-macro"} },
 
 	{ "keys": ["shift+escape"], "command": "alternative_autocomplete", "context":
 		[
@@ -43,94 +44,13 @@
 	// { "keys": ["ctrl+alt+m"], "command": "mark_and_move_clear" },
 	// Move Text
 	{ "keys": ["super+ctrl+left"], "command": "move_text_left" },
-	{ "keys": ["super+ctrl+right"], "command": "move_text_right" }
+	{ "keys": ["super+ctrl+right"], "command": "move_text_right" },
 
-	// =================
-	// === ZENCODING ===
-	// =================
-	// ,{
-	// 	"keys": [
-	// 		"#"
-	// 	],
-	// 	"args": {
-	// 		"contents": " id=\"$1\""
-	// 	},
-	// 	"command": "insert_snippet",
-	// 	"context": [
-	// 		{
-	// 			"operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -punctuation.definition.tag.html -source -meta.tag.template.value.twig",
-	// 			"operator": "equal",
-	// 			"match_all": true,
-	// 			"key": "selector"
-	// 		},
-	// 		{"operand": true, "operator": "equal", "key": "setting.auto_id_class"}
-	// 	]
-	// },
-	// {
-	// 	"keys": [
-	// 		"."
-	// 	],
-	// 	"args": {
-	// 		"contents": " class=\"$1\""
-	// 	},
-	// 	"command": "insert_snippet",
-	// 	"context": [
-	// 		{
-	// 			"key": "selector",
-	// 			"operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -punctuation.definition.tag.html -source -meta.tag.template.value.twig",
-	// 			"operator": "equal",
-	// 			"match_all": true
-	// 		},
-	// 		{"operand": true, "operator": "equal", "key": "setting.auto_id_class"}
-	// 	]
-	// },
-	// {
-	// 	"keys": [
-	// 		"#"
-	// 	],
-	// 	"args": {
-	// 		"contents": "id=\"$1\""
-	// 	},
-	// 	"command": "insert_snippet",
-	// 	"context": [
-	// 		{
-	// 			"operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -punctuation.definition.tag.html -source -meta.tag.template.value.twig",
-	// 			"operator": "equal",
-	// 			"match_all": true,
-	// 			"key": "selector"
-	// 		},
-	// 		{
-	// 			"operand": "\\s$",
-	// 			"operator": "regex_contains",
-	// 			"match_all": true,
-	// 			"key": "preceding_text"
-	// 		},
-	// 		{"operand": true, "operator": "equal", "key": "setting.auto_id_class"}
-	// 	]
-	// },
-	// {
-	// 	"keys": [
-	// 		"."
-	// 	],
-	// 	"args": {
-	// 		"contents": "class=\"$1\""
-	// 	},
-	// 	"command": "insert_snippet",
-	// 	"context": [
-	// 		{
-	// 			"operand": "text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -punctuation.definition.tag.html -source -meta.tag.template.value.twig",
-	// 			"operator": "equal",
-	// 			"match_all": true,
-	// 			"key": "selector"
-	// 		},
-	// 		{
-	// 			"operand": "\\s$",
-	// 			"operator": "regex_contains",
-	// 			"match_all": true,
-	// 			"key": "preceding_text"
-	// 		},
-	// 		{"operand": true, "operator": "equal", "key": "setting.auto_id_class"}
-	// 	]
-	// }
+	{"keys": ["ctrl+e"], "command": "element_finder" },
+
+	// Bookmarks
+	{ "keys": ["f1"], "command": "toggle_bookmark" },
+	{ "keys": ["f2"], "command": "prev_bookmark" },
+	{ "keys": ["f3"], "command": "next_bookmark" }
 
 ]

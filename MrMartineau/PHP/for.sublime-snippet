@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<?php for(\$i=0; \$i<${1:4}; \$i++): ?>
+	$0
+<?php endfor; ?>]]></content>
+	<tabTrigger>for</tabTrigger>
+	<description>PHP for loop</description>
+</snippet>

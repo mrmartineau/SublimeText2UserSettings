@@ -1,5 +1,5 @@
 {
-	"auto_complete": false,
+	"auto_complete": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_complete_delay": 900,
 	"auto_id_class": true,
@@ -45,13 +45,13 @@
 	"ignored_packages":
 	[
 		"SVN",
-		"BracketHighlighter",
-		"Color Highlighter",
-		"Boost-Snippets",
 		"Vintage",
+		"BracketHighlighter",
+		"Boost-Snippets",
 		"Live CSS",
-		"Emmet",
-		"ZenCoding"
+		"Theme - Soda",
+		"ZenCoding",
+		"View In Browser"
 	],
 	"indent_guide_options":
 	[
