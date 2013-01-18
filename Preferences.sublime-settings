@@ -1,7 +1,6 @@
 {
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": false,
-	"auto_complete_delay": 900,
 	"auto_id_class": true,
 	"auto_indent": true,
 	"auto_match_enabled": true,
@@ -24,8 +23,9 @@
 	],
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Color Scheme - Default/Pterosaur.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Tomorrow-Night.tmTheme",
 	"detect_indentation": true,
+	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
@@ -33,25 +33,36 @@
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
 	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+		".sass-cache",
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
 	"font_face": "SourceCodePro-Regular",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13.0,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"SVN",
-		"Vintage",
 		"BracketHighlighter",
+		"SASS Snippets",
 		"Boost-Snippets",
-		"Live CSS",
-		"Theme - Soda",
+		"Vintage",
+		"View In Browser",
 		"ZenCoding",
-		"View In Browser"
+		"Theme - Soda",
+		"Live CSS",
+		"Snake",
+		"SCSS Snippets"
 	],
 	"indent_guide_options":
 	[

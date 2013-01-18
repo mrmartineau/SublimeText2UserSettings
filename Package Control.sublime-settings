@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1353456281,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -21,6 +21,7 @@
 		"Gist",
 		"GotoRecent",
 		"Grunt",
+		"Handlebars",
 		"HTML5",
 		"HTMLAttributes",
 		"Inc-Dec-Value",
@@ -39,10 +40,13 @@
 		"Prefixr",
 		"ReadmePlease",
 		"Sass",
+		"SASS Snippets",
 		"ScopeHunter",
 		"SCSS",
+		"SCSS Snippets",
 		"SideBarEnhancements",
 		"SideBarGit",
+		"Snake",
 		"sublime-closure-linter",
 		"SublimeCodeIntel",
 		"SublimeLinter",
