@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[<?php include_once('$1'); ?>]]></content>
 	<tabTrigger>include</tabTrigger>
-	<description>
-		PHP Include Once
-	</description>
+	<description>PHP Include Once</description>
+	<scope>source.php, source.html</scope>
 </snippet>
