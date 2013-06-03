@@ -12,7 +12,7 @@
 	"syntaxes": [
 
 		{
-			"name": "HTML (ASP)",
+			"name": "HTML",
 			"rules": [
 				{"file_name": ".*\\.cshtml$"},
 				{"file_name": ".*\\.aspx$"},

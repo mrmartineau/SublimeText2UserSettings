@@ -27,6 +27,7 @@
 		"Boost": "https://github.com/mrmartineau/Boost/zipball/master",
 		"HTML5 Boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/v2.0stripped",
 		"Kickoff": "https://github.com/tmwagency/kickoff/zipball/master",
+		"Kickoff Dev Branch": "https://github.com/tmwagency/kickoff/archive/develop.zip",
 		"Twitter Bootstrap": "https://github.com/twitter/bootstrap/zipball/master",
 		"Zurb Foundation": "https://github.com/zurb/foundation/zipball/master"
 	}

@@ -3,7 +3,6 @@
 	"auto_complete_commit_on_tab": false,
 	"auto_id_class": true,
 	"auto_indent": true,
-	"auto_match_enabled": true,
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -24,6 +23,7 @@
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Color Scheme - Default/Tomorrow-Night.tmTheme",
+	"default_line_ending": "windows",
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
@@ -39,30 +39,45 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
-	"font_face": "SourceCodePro-Regular",
+	"font_face": "SourceCodePro-SemiBold",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14.0,
+	"font_size": 15.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SVN",
-		"BracketHighlighter",
-		"SASS Snippets",
-		"Boost-Snippets",
 		"Vintage",
+		"SideBarGit",
+		"SublimeOnSaveBuild",
+		"Statusbar Path",
+		"SublimeLinter",
+		"SASS Snippets",
+		"Auto Semi-Colon",
+		"Snake",
+		"SCSS Snippets",
+		"SVN",
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"Boost-Snippets",
+		"Modific",
+		"Web Inspector",
 		"View In Browser",
-		"ZenCoding",
+		"TernJS",
+		"Sass",
+		"SublimeCodeIntel",
 		"Theme - Soda",
 		"Live CSS",
-		"Snake",
-		"SCSS Snippets"
+		"JSHint",
+		"ZenCoding",
+		"Open Recent Files",
+		"sublime-list-sass-vars"
 	],
 	"indent_guide_options":
 	[
@@ -74,6 +89,7 @@
 	"line_padding_top": 2,
 	"match_brackets_angle": true,
 	"move_to_limit_on_up_down": true,
+	"new": true,
 	"overlay_scroll_bars": "enabled",
 	"phoenix_color_blue": true,
 	"phoenix_color_expanded_folder": true,
@@ -84,8 +100,8 @@
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": false,
 	"spell_check": false,
-	"tab_completion": true,
-	"theme": "Phoenix Light.sublime-theme",
+	"tab_completion": false,
+	"theme": "Phoenix Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
