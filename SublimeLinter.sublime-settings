@@ -4,5 +4,5 @@
 		"css"
 	],
 
-	"sublimelinter_gutter_marks": true
+	"sublimelinter_mark_style": "fill"
 }

@@ -30,12 +30,16 @@
 		"Line Completion",
 		"LineEndings",
 		"Liquid",
+		"List stylesheet variables",
+		"List Stylesheet Variables",
 		"MarkAndMove",
 		"Modific",
 		"MoveText",
 		"Nettuts+ Fetch",
 		"Package Control",
 		"Placeholders",
+		"PlainTasks",
+		"plaintasks",
 		"ReadmePlease",
 		"RegReplace",
 		"Sass",
@@ -43,9 +47,11 @@
 		"ScopeHunter",
 		"SCSS",
 		"SCSS Snippets",
+		"SelectUntil",
 		"SideBarEnhancements",
 		"SmartMarkdown",
 		"Statusbar Path",
+		"Stylus",
 		"sublime-levels",
 		"SublimeCodeIntel",
 		"SublimeLinter",
@@ -59,6 +65,8 @@
 		"TernJS",
 		"TextCommands",
 		"Theme - Phoenix",
-		"Theme - Soda"
+		"Theme - Soda",
+		"VAlign",
+		"Wind"
 	]
 }
